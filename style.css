@@ -1,0 +1,90 @@
+body.main{
+display: flex;
+flex-direction:row;
+flex: auto;
+}
+
+body{
+	flex-direction:column;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+
+
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+
+    .fa-youtube {
+        background: #bb0000;
+		   color: white;
+    }
+
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }
+
+
+    footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+
+    article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #f1f1f1;
+        height: 300px; /* only for demonstration, should be removed */
+    }
+	
+	    /* Clear floats after the columns */
+    section::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
